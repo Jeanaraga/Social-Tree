@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@300;400;500;600 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+
+body {
+    background-color: var(--body-bg-color);
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.img-perfil {
+    border: 2px solid #0402A2;
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 213px;
+    height: 213px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 101px;
+}
+
+.perfil-escrito {
+    margin-top: 15px;
+    margin-bottom: 33px;
+}
+
+.perfil-escrito h4 a{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #0402A2;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 34px;
+}
+
+.listas-links li {
+    list-style: none;
+    margin-bottom: 16px;
+    width: 326px;
+    height: 49px;
+    border: 2px solid #0402A2;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1.5s;
+}
+
+.listas-links li:hover {
+    background-color: #0402A2;
+    border-color: var(--body-bg-color);
+    color: var(--body-bg-color);
+}
+
+.listas-links li a:hover {
+    color: var(--body-bg-color);
+}
+
+.listas-links a {
+    width: 326px;
+    height: 49px;
+    text-decoration: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0402A2;
+    letter-spacing: 1px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.redes-sociais {
+    width: 236px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes-sociais .img {
+    width: 32px;
+    height: 32px;
+    margin: 14.5px;
+    color: #0402A2;
+}
+
+li img {
+    width: 38px;
+    height: 38px;
+    margin: 10px;
+}

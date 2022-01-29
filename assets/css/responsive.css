@@ -1,0 +1,14 @@
+@media screen and (max-width: 450px) {
+    .img-perfil {
+        margin-top: 50.5px;
+    }
+
+    main {
+        margin-bottom: 34px;
+    }
+
+    footer {
+        margin-bottom: 20px;
+    }
+    
+}
